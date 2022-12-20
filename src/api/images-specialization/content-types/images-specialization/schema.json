@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "images_specializations",
+  "info": {
+    "singularName": "images-specialization",
+    "pluralName": "images-specializations",
+    "displayName": "specialization",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageDoctor": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "nameSpecialty": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
